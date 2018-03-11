@@ -1,3 +1,7 @@
 # ANDRES GORDON
-mi pagina de representacion
-es mi fan page
+
+Soy un apacionado por la programacion todavia
+no tengo suficiente experiencia pero sigo aprendiendo
+dia con dia.
+
+**Gracias por tu atencion**
