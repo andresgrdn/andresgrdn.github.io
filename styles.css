@@ -1,3 +1,9 @@
 body {
     background: #f00;
 }
+
+#fotoPerfil {
+    width: 200px;
+    border-radius: 100%;
+    border: 1em solid white;
+}
