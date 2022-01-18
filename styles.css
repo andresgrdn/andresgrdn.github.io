@@ -1,3 +1,10 @@
+:root {
+    /*Colores para la pagina principal*/
+    --old-burgundy: #402e2a;
+    --gold-crayola: #f9c784;
+    --light-coral: #FF686B;
+}
+
 body {
-    background: #f00;
+    background: var(--gold-crayola);
 }
