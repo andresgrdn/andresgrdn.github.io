@@ -8,3 +8,9 @@
 body {
     background: var(--gold-crayola);
 }
+
+#fotoPerfil {
+    width: 200px;
+    border-radius: 100%;
+    border: 1em solid white;
+}
