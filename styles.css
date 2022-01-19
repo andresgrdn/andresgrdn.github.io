@@ -14,3 +14,14 @@ body {
     border-radius: 100%;
     border: 1em solid white;
 }
+
+#tarjeta {
+    /*Centrado del div*/
+    margin: auto;
+    width: 60%;
+    border: 5px solid var(--light-coral);
+    padding: 10px;
+
+    /*Centrado del texto*/
+    text-align: center;
+}
