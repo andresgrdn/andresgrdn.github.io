@@ -1,3 +1,7 @@
 body {
     background: #f00;
 }
+
+#frase {
+    width: 30vw;
+}
