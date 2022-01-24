@@ -37,5 +37,6 @@ body {
 }
 
 #frase {
-    width: 30vw;
+  margin: auto;
+  width: 30vw;
 }
