@@ -12,6 +12,15 @@ body {
   background: var(--gold-crayola);
 }
 
+#navbar {
+  background: var(--old-burgundy);
+}
+
+#enlaces a {
+  text-decoration: none;
+  color: var(--gold-crayola);
+}
+
 #fotoPerfil {
   width: 200px;
   border-radius: 100%;
@@ -38,7 +47,7 @@ body {
   color: black;
 }
 
-#contactos li {
+#contactos li, #enlaces li{
   list-style: none;
   display: inline;
 }
