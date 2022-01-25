@@ -41,6 +41,11 @@ body {
   color: black;
 }
 
+#contactos a:hover {
+  background-color: var(--old-burgundy);
+  color: var(--light-coral);
+}
+
 #contactos li {
   list-style: none;
   display: inline;
