@@ -32,6 +32,11 @@ body {
   margin-bottom: 0px;
 }
 
+#enlaces li {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 #enlaces a {
   text-decoration: none;
   color: var(--gold-crayola);
