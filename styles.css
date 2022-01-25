@@ -37,6 +37,11 @@ body {
   color: var(--gold-crayola);
 }
 
+#enlaces a:hover {
+  background: var(--light-coral);
+  color: var(--old-burgundy);
+}
+
 #fotoPerfil {
   width: 200px;
   border-radius: 100%;
