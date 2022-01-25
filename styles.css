@@ -9,7 +9,7 @@ body {
   margin: 0px;
   padding: 0px;
 
-  background: var(--gold-crayola);
+  background: var(--old-burgundy);
 }
 
 #fotoPerfil {
@@ -22,11 +22,14 @@ body {
   /*Centrado del div*/
   margin: auto;
   width: 60%;
-  border: 5px solid var(--light-coral);
   padding: 10px;
 
   /*Centrado del texto*/
   text-align: center;
+
+  /*Colores*/
+  background: var(--light-coral);
+  /*color: var(--gold-crayola);*/
 }
 
 #contactos {
