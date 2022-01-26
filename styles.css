@@ -12,6 +12,41 @@ body {
   background: var(--old-burgundy);
 }
 
+#navbar {
+  background: var(--old-burgundy);
+
+  text-align: right;
+
+  margin: 0px;
+  padding: 0px;
+
+  /*Por alguna razon necesito estas lineas para
+  que se alinee verticalmente los enlaces*/
+  height: 45px;
+  line-height: 45px;
+}
+
+#enlaces {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#enlaces li {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#enlaces a {
+  text-decoration: none;
+  color: var(--gold-crayola);
+}
+
+#enlaces a:hover {
+  background: var(--light-coral);
+  color: var(--old-burgundy);
+}
+
 #fotoPerfil {
   width: 200px;
   border-radius: 100%;
@@ -46,7 +81,8 @@ body {
   color: var(--light-coral);
 }
 
-#contactos li {
+#contactos li,
+#enlaces li {
   list-style: none;
   display: inline;
 }
