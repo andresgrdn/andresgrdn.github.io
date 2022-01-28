@@ -3,13 +3,14 @@
   --old-burgundy: #402e2a;
   --gold-crayola: #f9c784;
   --light-coral: #ff686b;
+  --body-color: #573f3a;
 }
 
 body {
   margin: 0px;
   padding: 0px;
 
-  background: var(--old-burgundy);
+  background: var(--body-color);
 }
 
 #navbar {
