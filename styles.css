@@ -58,14 +58,13 @@ body {
   /*Centrado del div*/
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding: 20px;
 
   /*Centrado del texto*/
   text-align: center;
 
   /*Colores*/
   background: var(--light-coral);
-  /*color: var(--gold-crayola);*/
 }
 
 #contactos {
