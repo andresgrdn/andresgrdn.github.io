@@ -3,7 +3,8 @@
   --old-burgundy: #402e2a;
   --gold-crayola: #f9c784;
   --light-coral: #ff686b;
-  --body-color: #573f3a;
+  --body-color: #fdd8d6;
+  --header-color: #6f5049;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 #navbar {
-  background: var(--old-burgundy);
+  background: var(--header-color);
 
   text-align: right;
 
@@ -62,10 +63,6 @@ body {
 
   /*Centrado del texto*/
   text-align: center;
-
-  /*Colores*/
-  background: var(--light-coral);
-  /*color: var(--gold-crayola);*/
 }
 
 #contactos {
