@@ -1,9 +1,9 @@
 .tarjeta {
-    background: var(--light-coral);
-    width: 29vw;
-    display: inline-block;
-    vertical-align: top;
+  background: var(--light-coral);
+  width: 29vw;
+  display: inline-block;
+  vertical-align: top;
 
-    padding: 10px;
-    margin: 4px;
+  padding: 10px;
+  margin: 4px;
 }
