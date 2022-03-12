@@ -20,6 +20,10 @@ body {
   background: var(--body-color);
 }
 
+main {
+  padding: 1em 0;
+}
+
 #navbar {
   background: var(--header-color);
 
@@ -65,10 +69,13 @@ body {
   /*Centrado del div*/
   margin: auto;
   width: 60%;
-  padding: 20px;
 
   /*Centrado del texto*/
   text-align: center;
+}
+
+#tarjeta * {
+  margin-bottom: 1.09em;
 }
 
 #contactos {
