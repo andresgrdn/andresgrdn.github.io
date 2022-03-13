@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="torre-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title293">Torre logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="151"
+     inkscape:cy="87"
+     inkscape:window-width="1365"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     units="px"
+     width="256px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Logo"
+     style="display:inline">
+    <path
+       id="path362"
+       style="fill:#272917;stroke:#c8dd15;stroke-width:20.0712;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       transform="matrix(0.2822637,0,0,0.26949573,22.39714,15.271587)"
+       d="M 140.3181,126.55213 40.634082,184.10472 -59.049933,126.55213 V 11.446941 L 40.634083,-46.105652 140.3181,11.446942 Z" />
+    <g
+       aria-label="t"
+       id="text4291"
+       style="font-size:35.1214px;line-height:1.25;fill:#f3f3f3;fill-opacity:1;stroke-width:1.88149">
+      <path
+         d="m 34.697458,21.093984 v 5.65114 h 5.657961 v 3.847918 h -5.657961 v 9.58771 c 0,1.566287 0.508449,2.037847 0.931461,2.483724 0.434444,0.445877 1.915216,0.623967 3.139329,0.14422 l 1.340197,-0.525241 v 3.844682 c 0,0 -0.715271,0.596535 -2.698366,0.865465 -3.814947,0.490672 -5.011873,-0.710378 -5.937926,-1.613565 -0.926053,-0.91462 -1.262874,-2.798508 -1.284836,-5.199285 v -9.58771 h -2.668814 v -3.847918 h 2.668814 v -5.65114 z"
+         id="path6924"
+         sodipodi:nodetypes="cccccscsccccscccccc"
+         style="fill:#f3f3f3;fill-opacity:1" />
+    </g>
+  </g>
+  <metadata
+     id="metadata287">
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <dc:title>Torre logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Arcano</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>logo</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Logo para link de torre.co</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

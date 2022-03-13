@@ -87,9 +87,15 @@ main {
   color: black;
 }
 
-#contactos a:hover {
-  background-color: var(--old-burgundy);
-  color: var(--light-coral);
+#contactos img {
+  width: 1.5em;
+  height: 1.6em;
+  margin: 0 0.5em;
+}
+
+#contactos img:hover {
+  background: #e2b0ad;
+  border-radius: 25%;
 }
 
 #contactos li,
