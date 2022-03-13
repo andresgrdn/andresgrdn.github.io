@@ -1,5 +1,5 @@
 .tarjeta {
-  background: var(--light-coral);
+  background: var(--tarjetas-fondo);
   width: 29vw;
   display: inline-block;
   vertical-align: top;
