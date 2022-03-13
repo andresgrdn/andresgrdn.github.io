@@ -3,8 +3,13 @@
   --old-burgundy: #402e2a;
   --gold-crayola: #f9c784;
   --light-coral: #ff686b;
-  --body-color: #fdd8d6;
-  --header-color: #6f5049;
+  --body-color: #c1f8cf;
+  --header-color: #533e85;
+  --hover-social-media: #4fd3c4;
+  --hover-navbar-links: #4fd3c4;
+  --tarjetas-fondo: #488fb1;
+  --texto-navbar-links: #4fd3c4;
+  --hover-navbar-links-text: #553e85;
 }
 
 * {
@@ -51,12 +56,12 @@ main {
 
 #enlaces a {
   text-decoration: none;
-  color: var(--gold-crayola);
+  color: var(--texto-navbar-links);
 }
 
 #enlaces a:hover {
-  background: var(--light-coral);
-  color: var(--old-burgundy);
+  background: var(--hover-navbar-links);
+  color: var(--hover-navbar-links-text);
 }
 
 #fotoPerfil {
@@ -94,7 +99,7 @@ main {
 }
 
 #contactos img:hover {
-  background: #e2b0ad;
+  background: var(--hover-social-media);
   border-radius: 25%;
 }
 
