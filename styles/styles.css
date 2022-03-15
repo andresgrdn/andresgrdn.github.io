@@ -19,9 +19,6 @@
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-
   background: var(--body-color);
 }
 
@@ -29,13 +26,10 @@ main {
   padding: 1em 0;
 }
 
-#navbar {
+.navbar {
   background: var(--header-color);
 
   text-align: right;
-
-  margin: 0px;
-  padding: 0px;
 
   /*Por alguna razon necesito estas lineas para
   que se alinee verticalmente los enlaces*/
@@ -43,23 +37,17 @@ main {
   line-height: 45px;
 }
 
-#enlaces {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#enlaces li {
+.navbar__enlaces li {
   padding-right: 5%;
   padding-left: 5%;
 }
 
-#enlaces a {
+.navbar__enlaces a {
   text-decoration: none;
   color: var(--texto-navbar-links);
 }
 
-#enlaces a:hover {
+.navbar__enlaces a:hover {
   background: var(--hover-navbar-links);
   color: var(--hover-navbar-links-text);
 }
@@ -104,7 +92,7 @@ main {
 }
 
 #contactos li,
-#enlaces li {
+.navbar__enlaces li {
   list-style: none;
   display: inline;
 }
