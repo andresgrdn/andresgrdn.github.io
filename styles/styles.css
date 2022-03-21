@@ -1,15 +1,13 @@
 :root {
   /*Colores para la pagina principal*/
-  --old-burgundy: #402e2a;
-  --gold-crayola: #f9c784;
-  --light-coral: #ff686b;
-  --body-color: #c1f8cf;
   --header-color: #533e85;
-  --hover-social-media: #4fd3c4;
-  --hover-navbar-links: #4fd3c4;
-  --tarjetas-fondo: #488fb1;
   --texto-navbar-links: #4fd3c4;
+  --hover-navbar-links: #4fd3c4;
   --hover-navbar-links-text: #553e85;
+  --body-color: #c1f8cf;
+  --tarjetas-fondo: #488fb1;
+  --hover-social-media: #4fd3c4;
+  --bkg-color-footer-container: #533e85;
 }
 
 * {
@@ -113,7 +111,17 @@ main {
   width: 30vw;
 }
 
-footer {
+.footer-container {
+  background: var(--bkg-color-footer-container);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 5vh;
+  height: 4rem;
+}
+.footer-container p {
+  font-size: 1rem;
+}
+.footer-container a {
+  text-decoration: none;
 }
