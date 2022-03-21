@@ -18,28 +18,39 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: var(--body-color);
+  font-size: 1.6rem;
 }
 
 main {
   padding: 1em 0;
 }
-
-.navbar {
+.header-container {
   background: var(--header-color);
-
-  text-align: right;
-
-  /*Por alguna razon necesito estas lineas para
-  que se alinee verticalmente los enlaces*/
-  height: 45px;
-  line-height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.25rem;
+}
+.logo-container {
+  margin-left: 2rem;
+}
+.navbar {
+  display: inline-block;
+  text-align: center;
+  margin-right: 2rem;
 }
 
 .navbar__enlaces li {
-  padding-right: 5%;
-  padding-left: 5%;
+  list-style: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 0 1rem;
 }
 
 .navbar__enlaces a {
@@ -91,10 +102,9 @@ main {
   border-radius: 25%;
 }
 
-#contactos li,
-.navbar__enlaces li {
+#contactos li {
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 #frase {
