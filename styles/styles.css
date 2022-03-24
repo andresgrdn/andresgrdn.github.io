@@ -23,7 +23,7 @@ html {
 body {
   background: var(--body-color);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 main {
@@ -48,7 +48,6 @@ main {
 .navbar__enlaces li {
   list-style: none;
   display: inline-block;
-  font-size: 1.8rem;
   margin: 0 1rem;
 }
 
