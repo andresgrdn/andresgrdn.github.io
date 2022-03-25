@@ -27,7 +27,7 @@ body {
 }
 .main-container {
   padding: 1em 0;
-  min-height: 85vh;
+  min-height: 100vh;
 }
 .header-container {
   background: var(--header-color);
