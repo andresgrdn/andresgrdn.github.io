@@ -25,9 +25,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
 }
-
-main {
+.main-container {
   padding: 1em 0;
+  min-height: 85vh;
 }
 .header-container {
   background: var(--header-color);
@@ -115,7 +115,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 4rem;
 }
 .footer-container p {
