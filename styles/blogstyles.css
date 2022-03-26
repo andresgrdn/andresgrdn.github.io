@@ -1,9 +1,17 @@
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .tarjeta {
   background: var(--tarjetas-fondo);
-  width: 29vw;
-  display: inline-block;
-  vertical-align: top;
-
-  padding: 10px;
-  margin: 4px;
+  margin: 0.4rem auto;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  max-width: 35rem;
+  height: 25rem;
+}
+.tarjeta p,
+.tarjeta h2 {
+  margin-bottom: 2rem;
 }

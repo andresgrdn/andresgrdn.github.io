@@ -1,15 +1,13 @@
 :root {
   /*Colores para la pagina principal*/
-  --old-burgundy: #402e2a;
-  --gold-crayola: #f9c784;
-  --light-coral: #ff686b;
-  --body-color: #c1f8cf;
   --header-color: #533e85;
-  --hover-social-media: #4fd3c4;
-  --hover-navbar-links: #4fd3c4;
-  --tarjetas-fondo: #488fb1;
   --texto-navbar-links: #4fd3c4;
+  --hover-navbar-links: #4fd3c4;
   --hover-navbar-links-text: #553e85;
+  --body-color: #c1f8cf;
+  --tarjetas-fondo: #488fb1;
+  --hover-social-media: #4fd3c4;
+  --bkg-color-footer-container: #533e85;
 }
 
 * {
@@ -18,48 +16,57 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin: 0px;
-  padding: 0px;
-
   background: var(--body-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
 }
-
-main {
+.main-container {
   padding: 1em 0;
+  min-height: 100vh;
 }
-
-#navbar {
+.header-container {
   background: var(--header-color);
-
-  text-align: right;
-
-  margin: 0px;
-  padding: 0px;
-
-  /*Por alguna razon necesito estas lineas para
-  que se alinee verticalmente los enlaces*/
-  height: 45px;
-  line-height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.25rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  height: inherit;
+  padding: 0.5rem 0;
+}
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.navbar {
+  display: inline-block;
+  text-align: center;
+  margin-right: 2rem;
 }
 
-#enlaces {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.navbar__enlaces li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1rem;
 }
 
-#enlaces li {
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-#enlaces a {
+.navbar__enlaces a {
   text-decoration: none;
   color: var(--texto-navbar-links);
 }
 
-#enlaces a:hover {
+.navbar__enlaces a:hover {
   background: var(--hover-navbar-links);
   color: var(--hover-navbar-links-text);
 }
@@ -103,10 +110,9 @@ main {
   border-radius: 25%;
 }
 
-#contactos li,
-#enlaces li {
+#contactos li {
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 #frase {
@@ -114,7 +120,24 @@ main {
   width: 30vw;
 }
 
-footer {
-  text-align: center;
-  margin: 5vh;
+.footer-container {
+  background: var(--bkg-color-footer-container);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1.6rem;
+  }
+  #frase {
+    width: unset;
+  }
 }
