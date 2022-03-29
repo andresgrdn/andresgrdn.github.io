@@ -41,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
-  height: inherit;
+  width: 3.2rem;
   padding: 0.5rem 0;
 }
 .logo-container img {
