@@ -34,14 +34,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4.25rem;
+  height: 6rem;
 }
 .logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
-  height: inherit;
+  width: 3.2rem;
   padding: 0.5rem 0;
 }
 .logo-container img {
@@ -50,15 +50,15 @@ body {
   object-fit: contain;
 }
 .navbar {
-  display: inline-block;
-  text-align: center;
   margin-right: 2rem;
 }
-
+.navbar__enlaces {
+  display: flex;
+}
 .navbar__enlaces li {
+  display: block;
   list-style: none;
-  display: inline-block;
-  margin: 0 1rem;
+  margin-left: 3rem;
 }
 
 .navbar__enlaces a {
