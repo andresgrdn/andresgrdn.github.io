@@ -50,15 +50,15 @@ body {
   object-fit: contain;
 }
 .navbar {
-  display: inline-block;
-  text-align: center;
   margin-right: 2rem;
 }
-
+.navbar__enlaces {
+  display: flex;
+}
 .navbar__enlaces li {
+  display: block;
   list-style: none;
-  display: inline-block;
-  margin: 0 1rem;
+  margin-left: 3rem;
 }
 
 .navbar__enlaces a {
