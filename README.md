@@ -1,12 +1,30 @@
-# ANDRES GORDON
+# ANDRES GORDON <sup>Web developer</sup>
 
-Soy un apacionado por la programacion todavia
-no tengo suficiente experiencia pero sigo aprendiendo
-dia con dia.
+Apasionado por la programacion aprendiendo todos los dias.
+
+---
+
+Tecnologías que he usado:
+- HTML5
+- CSS3
+- JavaScript
+
+Metodologias que uso:
+- CSS
+  - BEM 
+- Web development
+  - Responsive design
+  - Mobile only
+  - Mobile first
+
+---
 
 Lo que me interesa:
-- Realidad virtual(como va la industria con mi poder de compra es mas un hobby)
-- Inteligencias artificiales.
-- Ver matematicas con ayuda de la programacion.
 
-**Gracias por tu atencion**
+- Web development.
+- Matematicas en general.
+- Realidad virtual (hobby)
+
+---
+
+**Hecho con 💖 by [Andres Gordon](https://andresgrdn.github.io)**
