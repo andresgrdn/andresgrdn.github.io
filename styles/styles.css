@@ -42,3 +42,89 @@ body {
 
   background: var(--body-color);
 }
+
+.menu-container {
+  position: relative;
+
+  width: 100%;
+  min-width: 320px;
+  max-width: 425px;
+  min-height: 100vh;
+
+  background: var(--white);
+}
+
+.menu-container .menu__icon {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.menu-container figure {
+  border-radius: 24px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 100%;
+  height: 45vh;
+  min-height: 362px;
+
+  object-fit: fill;
+  object-position: center;
+  overflow: hidden;
+}
+
+.menu-container img {
+  display: block;
+  width: 100%;
+}
+
+.menu__links {
+  padding: 42px 20px;
+  width: 100%;
+
+  list-style: none;
+}
+
+.menu__links li {
+  margin-bottom: 16px;
+}
+
+.menu__links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  padding: 10px 16px;
+  width: fit-content;
+  height: 32px;
+
+  text-decoration: none;
+
+  background: var(--grey-light);
+  color: var(--black-accent);
+}
+
+.menu__links span {
+  display: block;
+
+  width: 20px;
+  height: 20px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menu__links .github-icon {
+  background-image: url("../icons/github-icon.svg");
+}
+
+.menu__links .linkedin-icon {
+  background-image: url("../icons/linkedin-icon.svg");
+}
+
+.menu__links .torre-icon {
+  background-image: url("../icons/torre-icon.svg");
+}
