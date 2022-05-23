@@ -1,13 +1,29 @@
 :root {
-  /*Colores para la pagina principal*/
-  --header-color: #533e85;
-  --texto-navbar-links: #4fd3c4;
-  --hover-navbar-links: #4fd3c4;
-  --hover-navbar-links-text: #553e85;
-  --body-color: #c1f8cf;
-  --tarjetas-fondo: #488fb1;
-  --hover-social-media: #4fd3c4;
-  --bkg-color-footer-container: #533e85;
+  --black-accent: #6E7F8D;
+  --grey-dark: #B5BFC6;
+  --grey-light: #E4EBF1;
+  --white: #EFF2F9;
+
+  --inner-shadow:
+    inset -5px -5px 10px #FAFBFF,
+    inset 5px 5px 10px rgb(22 27 29 / 23%);
+  --outer-shadow-1:
+    -5px -5px 10px #FAFBFF,
+    5px 5px 10px rgb(22 27 29 / 23%);
+  --outer-shadow-2:
+    -10px -10px 20px #FAFBFF,
+    10px 10px 20px rgb(22 27 29 / 23%);
+  --outer-shadow-3:
+    -20px -20px 40px #FAFBFF,
+    20px 20px 40px rgb(22 27 29 / 23%);
+
+  --dm-sans-regular: 400;
+  --dm-sans-medium: 500;
+  --dm-sans-bold: 700;
+
+  --inter-medium: 500;
+  --inter-bold: 700;
+
 }
 
 * {
@@ -21,123 +37,8 @@ html {
 }
 
 body {
-  background: var(--body-color);
-  font-family: "Montserrat", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 1.4rem;
-}
-.main-container {
-  padding: 1em 0;
-  min-height: 100vh;
-}
-.header-container {
-  background: var(--header-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 6rem;
-}
-.logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2rem;
-  width: 3.2rem;
-  padding: 0.5rem 0;
-}
-.logo-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.navbar {
-  margin-right: 2rem;
-}
-.navbar__enlaces {
-  display: flex;
-}
-.navbar__enlaces li {
-  display: block;
-  list-style: none;
-  margin-left: 3rem;
-}
 
-.navbar__enlaces a {
-  text-decoration: none;
-  color: var(--texto-navbar-links);
-}
-
-.navbar__enlaces a:hover {
-  background: var(--hover-navbar-links);
-  color: var(--hover-navbar-links-text);
-}
-
-#fotoPerfil {
-  width: 200px;
-  border-radius: 100%;
-  border: 1em solid white;
-}
-
-#tarjeta {
-  /*Centrado del div*/
-  margin: auto;
-  width: 60%;
-
-  /*Centrado del texto*/
-  text-align: center;
-}
-
-#tarjeta * {
-  margin-bottom: 1.09em;
-}
-
-#contactos {
-  padding: 0px;
-}
-
-#contactos a {
-  text-decoration: none;
-  color: black;
-}
-
-#contactos img {
-  width: 1.5em;
-  height: 1.6em;
-  margin: 0 0.5em;
-}
-
-#contactos img:hover {
-  background: var(--hover-social-media);
-  border-radius: 25%;
-}
-
-#contactos li {
-  list-style: none;
-  display: inline-block;
-}
-
-#frase {
-  margin: auto;
-  width: 30vw;
-}
-
-.footer-container {
-  background: var(--bkg-color-footer-container);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 4rem;
-}
-.footer-container a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
-}
-
-@media (max-width: 640px) {
-  body {
-    font-size: 1.6rem;
-  }
-  #frase {
-    width: unset;
-  }
+  background: var(--body-color);
 }
