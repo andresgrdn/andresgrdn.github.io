@@ -58,6 +58,10 @@ body {
   background: var(--white);
 }
 
+.hidden {
+  display: none;
+}
+
 .menu-container .menu__icon {
   position: absolute;
   right: 0;
