@@ -79,10 +79,8 @@ body {
   cursor: pointer;
 }
 
-.menu-container figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.menu-container .profile-image {
+  display: block;
 
   border-radius: 24px;
   border-top-left-radius: 0;
@@ -93,14 +91,9 @@ body {
   min-height: 320px;
   max-height: 400px;
 
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
   overflow: hidden;
-}
-
-.menu-container img {
-  display: block;
-  height: 100%;
 }
 
 .menu__links {
