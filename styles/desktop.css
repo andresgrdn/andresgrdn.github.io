@@ -1,0 +1,31 @@
+/* 
+.menu-container .menu__icon {
+  display: none;
+}
+ */
+
+.menu-container {
+  justify-content: center;
+  width: 100%;
+  max-width: unset;
+}
+
+.menu-container .profile-image {
+  border-radius: 50%;
+  margin: 10px auto;
+  width: unset;
+  min-width: 220px;
+  min-height: 220px;
+}
+
+.menu-container .menu__links {
+  margin: 0 auto;
+  width: unset;
+  padding: 42px 0;
+  padding-bottom: 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
