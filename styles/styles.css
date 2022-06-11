@@ -44,26 +44,28 @@ body {
 }
 
 .menu-container {
-  transform: scale(1);
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  width: 100%;
-  min-width: 320px;
-  max-width: 425px;
-  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+
+  width: 0px;
 
   background: var(--white);
+  overflow: hidden;
 }
 
-.hidden {
-  display: none;
+.change-menu-width {
+  width: 100%;
 }
 
 .menu-container .menu__icon {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 45px;
 
@@ -171,6 +173,7 @@ footer a {
 
 main {
   position: relative;
+  z-index: 0;
 
   width: 100%;
   min-width: 320px;

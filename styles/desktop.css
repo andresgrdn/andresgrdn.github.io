@@ -1,13 +1,10 @@
-/* 
-.menu-container .menu__icon {
-  display: none;
-}
- */
-
 .menu-container {
   justify-content: center;
-  width: 100%;
-  max-width: unset;
+}
+
+.change-menu-width {
+  box-shadow: var(--outer-shadow-1);
+  width: 400px;
 }
 
 .menu-container .profile-image {
