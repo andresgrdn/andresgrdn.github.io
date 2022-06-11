@@ -65,7 +65,7 @@ body {
   width: 100%;
 }
 
-.menu-container .menu__icon {
+.menu-container .menu__button--close {
   position: absolute;
   right: 0;
   top: 45px;
@@ -74,12 +74,21 @@ body {
   width: 48px;
   height: 48px;
 
-  background-image: url("../icons/opened-menu-icon.svg");
+  background-image: url("../icons/x_icon.svg");
   background-color: hsla(205, 13%, 74%, 0.20);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 12px;
 
   cursor: pointer;
+}
+
+.menu-container .menu__button--close:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
+.menu-container .menu__button--close:active {
+  box-shadow: var(--inner-shadow);
 }
 
 .menu-container .profile-image {
@@ -183,7 +192,7 @@ main {
   background: var(--white);
 }
 
-main .menu__icon--closed {
+.portafolio__open-menu-button {
   position: fixed;
   top: 45px;
 
@@ -191,15 +200,16 @@ main .menu__icon--closed {
   width: 48px;
   height: 48px;
 
-  background-image: url("../icons/closed-menu-icon.svg");
-  background-position-y: center;
-  background-position-x: left;
+  box-shadow: var(--outer-shadow-1);
+
+  background-image: url("../icons/open_contact_card.svg");
+  background-position: center;
   background-repeat: no-repeat;
 
   cursor: pointer;
 }
 
-main .menu__icon--closed:active {
+.portafolio__open-menu-button:active {
   box-shadow: var(--inner-shadow);
 }
 

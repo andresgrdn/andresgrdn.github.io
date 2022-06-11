@@ -26,6 +26,14 @@
   box-shadow: var(--outer-shadow-1);
 }
 
+.portafolio__open-menu-button {
+  box-shadow: var(--outer-shadow-2);
+}
+
+.portafolio__open-menu-button:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
