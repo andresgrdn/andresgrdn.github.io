@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="32"
-   height="32"
-   viewBox="0 0 8.4666665 8.4666667"
+   width="12"
+   height="11.999998"
+   viewBox="0 0 3.1749999 3.1749995"
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="open_contact_card.svg"
+   sodipodi:docname="x_icon.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="6.2313785"
-     inkscape:cx="-6.6598426"
+     inkscape:cx="-6.4191254"
      inkscape:cy="20.220245"
      inkscape:window-width="1365"
      inkscape:window-height="741"
@@ -43,15 +43,15 @@
     <inkscape:grid
        type="xygrid"
        id="grid4422"
-       originx="-31.629916"
-       originy="-48.204082" />
+       originx="-31.629912"
+       originy="-48.204081" />
     <sodipodi:guide
-       position="78.566334,-2.4288998"
+       position="78.566336,-7.720568"
        orientation="1,0"
        id="guide900"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="79.624864,-2.5404998"
+       position="79.624866,-7.832168"
        orientation="1,0"
        id="guide902"
        inkscape:locked="false" />
@@ -62,19 +62,19 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-31.629916,-48.204081)">
+     transform="translate(-31.629913,-48.20408)">
     <g
-       id="g965"
+       id="g6285"
        inkscape:label="x"
-       transform="matrix(6.5568057,0,0,6.5568057,-200.27305,-284.05219)"
-       style="stroke-width:0.152513">
+       transform="matrix(0.34640537,0,0,0.34640537,20.794192,31.626978)"
+       style="stroke-width:2.88679">
       <path
-         style="fill:none;stroke:#333333;stroke-width:0.0564932;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 35.39653,51.936529 1.234786,-1.234786"
+         style="fill:none;stroke:#48525c;stroke-width:1.06931;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 31.81512,56.485539 8.096252,-8.096251"
          id="path4511" />
       <path
-         style="fill:none;stroke:#333333;stroke-width:0.0564932;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 35.39653,50.701743 1.234786,1.234786"
+         style="fill:none;stroke:#48525c;stroke-width:1.06931;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 31.81512,48.389288 8.096252,8.096251"
          id="path4791" />
     </g>
   </g>
