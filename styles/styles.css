@@ -55,6 +55,7 @@ body {
   z-index: 1;
 
   width: 0px;
+  transition: 250ms width cubic-bezier(.68, -0.55, .27, 1.55);
 
   background: var(--white);
   overflow: hidden;
