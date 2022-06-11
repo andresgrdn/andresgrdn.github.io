@@ -22,6 +22,10 @@
   padding-bottom: 0;
 }
 
+.menu__links a:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
