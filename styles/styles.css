@@ -58,7 +58,7 @@ body {
   transition: 250ms width cubic-bezier(.68, -0.55, .27, 1.55);
 
   background: var(--white);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .change-menu-width {
@@ -98,9 +98,7 @@ body {
   border-top-right-radius: 0;
   width: 100%;
   min-width: 320px;
-  height: 45vh;
   min-height: 320px;
-  max-height: 400px;
 
   object-fit: cover;
   object-position: center;
