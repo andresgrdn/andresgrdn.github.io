@@ -44,26 +44,29 @@ body {
 }
 
 .menu-container {
-  transform: scale(1);
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  width: 100%;
-  min-width: 320px;
-  max-width: 425px;
-  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+
+  width: 0px;
+  transition: 250ms width cubic-bezier(.68, -0.55, .27, 1.55);
 
   background: var(--white);
+  overflow: auto;
 }
 
-.hidden {
-  display: none;
+.change-menu-width {
+  width: 100%;
 }
 
-.menu-container .menu__icon {
-  position: fixed;
+.menu-container .menu__button--close {
+  position: absolute;
   right: 0;
   top: 45px;
 
@@ -71,12 +74,20 @@ body {
   width: 48px;
   height: 48px;
 
-  background-image: url("../icons/opened-menu-icon.svg");
+  background-image: url("../icons/x_icon.svg");
   background-color: hsla(205, 13%, 74%, 0.20);
   background-position: center;
   background-repeat: no-repeat;
 
   cursor: pointer;
+}
+
+.menu-container .menu__button--close:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
+.menu-container .menu__button--close:active {
+  box-shadow: var(--inner-shadow);
 }
 
 .menu-container .profile-image {
@@ -87,9 +98,7 @@ body {
   border-top-right-radius: 0;
   width: 100%;
   min-width: 320px;
-  height: 45vh;
   min-height: 320px;
-  max-height: 400px;
 
   object-fit: cover;
   object-position: center;
@@ -171,6 +180,7 @@ footer a {
 
 main {
   position: relative;
+  z-index: 0;
 
   width: 100%;
   min-width: 320px;
@@ -179,7 +189,7 @@ main {
   background: var(--white);
 }
 
-main .menu__icon--closed {
+.portafolio__open-menu-button {
   position: fixed;
   top: 45px;
 
@@ -187,15 +197,16 @@ main .menu__icon--closed {
   width: 48px;
   height: 48px;
 
-  background-image: url("../icons/closed-menu-icon.svg");
-  background-position-y: center;
-  background-position-x: left;
+  box-shadow: var(--outer-shadow-1);
+
+  background-image: url("../icons/open_contact_card.svg");
+  background-position: center;
   background-repeat: no-repeat;
 
   cursor: pointer;
 }
 
-main .menu__icon--closed:active {
+.portafolio__open-menu-button:active {
   box-shadow: var(--inner-shadow);
 }
 

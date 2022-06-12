@@ -1,21 +1,10 @@
-/* 
-.menu-container .menu__icon {
-  display: none;
-}
- */
-
 .menu-container {
   justify-content: center;
-  width: 100%;
-  max-width: unset;
 }
 
-.menu-container .profile-image {
-  border-radius: 50%;
-  margin: 10px auto;
-  width: unset;
-  min-width: 220px;
-  min-height: 220px;
+.change-menu-width {
+  box-shadow: var(--outer-shadow-1);
+  width: 400px;
 }
 
 .menu-container .menu__links {
@@ -25,7 +14,18 @@
   padding-bottom: 0;
 }
 
+.menu__links a:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
+.portafolio__open-menu-button {
+  box-shadow: var(--outer-shadow-2);
+}
+
+.portafolio__open-menu-button:hover {
+  box-shadow: var(--outer-shadow-1);
+}
+
 .cards-container {
-  display: grid;
   grid-template-columns: 1fr 1fr;
 }
