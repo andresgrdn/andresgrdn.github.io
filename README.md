@@ -3,7 +3,7 @@
 <h1 align="center">
   Hi, I'm Andres Gordon
   <!--sleeping cat-->
-  <img src="https://media.giphy.com/media/b2cphlu7GqmYM/giphy.gif" width="24px">
+  <img src="https://media.giphy.com/media/b2cphlu7GqmYM/giphy.gif" width="24">
   
   <!--paw greetting
   <img src="https://media.giphy.com/media/3UPNs8vXyJESQ/giphy.gif" width="50">
@@ -16,28 +16,33 @@
   -->
 </h1>
 
-<!--computer cat-->
-<img align='right' src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy-downsized.gif" width="100px">
-
 <!--Greetings-->
 
 
-<!--
+
+<!--About me-->
+
 ## About me
+
+<img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> Frontend Web developer 👩‍💻, for now 😉 <br>
+<img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> Making some projects using Javascript ✨<br>
+<img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> Some projects finished [😉✨ Here](https://andresgrdn.github.io) <br>
+<!--
 <img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> I write articles on Python, C++, UI/UX Design and Web Development to make your learning journey easier :)<br>
 <img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> I believe in learning by building and being consistent in what I do. <br>
 <img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> I actually like C++ but not as much as I like python though😉<br>
-<img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> Full stack Web developer 👩‍💻 <br>
-<img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> Hoping to make some projects using Machine Learning by the end of this year ✨<br>
 <img height="20" src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-30.gif"> When I'm not coding, I am probably exploring new concepts, or thinking about my next project. 
 -->
+
+<!--About me-->
+
 
 
 <!--Connect with me-->
 
 <h2>
   <!--high five-->
-  <img src="https://media.giphy.com/media/NQDcH2ZZaPV8QBDYK3/giphy.gif" width="24px">
+  <img src="https://media.giphy.com/media/NQDcH2ZZaPV8QBDYK3/giphy.gif" width="24">
   Connect with me 
 </h2>
   
@@ -56,7 +61,7 @@
 
 <h2>
   <!--pankcat-->
-  <img src="https://media.giphy.com/media/a2YsvQ7btQTiOUSkAd/giphy.gif" width="24px">
+  <img src="https://media.giphy.com/media/a2YsvQ7btQTiOUSkAd/giphy.gif" width="24">
   Technologies I use
 </h2>
 
@@ -88,12 +93,12 @@
 
 <h2>
   <!--toad vibing-->
-  <img src="https://media.giphy.com/media/6FxJBpNTBgWdJCXKD4/giphy.gif" width="24px">
+  <img src="https://media.giphy.com/media/6FxJBpNTBgWdJCXKD4/giphy.gif" width="24">
   Tools I Use
 </h2>
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![CodePen](https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black)
+<a href="https://codepen.io/andresgordon" target="_blank">![CodePen](https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black)</a>
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <!--
