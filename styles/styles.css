@@ -217,6 +217,7 @@ footer a {
 
 .cards-container {
   display: grid;
+  align-items: start;
   gap: 100px;
 
   margin: 0 10px 0 53px;
