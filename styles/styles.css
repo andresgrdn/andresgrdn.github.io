@@ -37,10 +37,14 @@ html {
 }
 
 body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+
   font-family: "DM Sans", sans-serif;
   font-size: 1.6rem;
 
-  background: var(--body-color);
+  background: var(--white);
 }
 
 .menu-container {
@@ -188,17 +192,6 @@ footer a {
   text-align: center;
 
   color: var(--black-accent);
-}
-
-main {
-  position: relative;
-  z-index: 0;
-
-  width: 100%;
-  min-width: 320px;
-  min-height: 100vh;
-
-  background: var(--white);
 }
 
 .portafolio__open-menu-button {
