@@ -178,6 +178,18 @@ footer a {
   color: var(--grey-dark);
 }
 
+.header-container {
+  padding-top: 1em;
+  background-color: var(--white);
+}
+
+.header-container h1 {
+  font-size: 2.4rem;
+  text-align: center;
+
+  color: var(--black-accent);
+}
+
 main {
   position: relative;
   z-index: 0;
