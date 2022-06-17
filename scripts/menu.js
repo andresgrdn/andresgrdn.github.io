@@ -1,15 +1,12 @@
 const menuButtonPortafolio = document.getElementById('menu-button-portafolio');
 const menuButtonMenu = document.getElementById('menu-button-menu');
+const menuView = document.getElementById("menuView");
 
 
 function openMenu() {
-  const menuView = document.getElementById("menuView");
-
   menuView.classList.toggle("change-menu-width");
 }
 function closeMenu() {
-  const menuView = document.getElementById("menuView");
-
   menuView.classList.toggle("change-menu-width");
 }
 
