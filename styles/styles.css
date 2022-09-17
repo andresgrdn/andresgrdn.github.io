@@ -194,7 +194,7 @@ footer a {
   color: var(--black-accent);
 }
 
-.portafolio__open-menu-button {
+.portfolio__open-menu-button {
   position: fixed;
   top: 45px;
 
@@ -211,7 +211,7 @@ footer a {
   cursor: pointer;
 }
 
-.portafolio__open-menu-button:active {
+.portfolio__open-menu-button:active {
   box-shadow: var(--inner-shadow);
 }
 
@@ -230,7 +230,7 @@ footer a {
   height: 66%;
   max-height: 300px;
 
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
