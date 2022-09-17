@@ -1,3 +1,6 @@
+import './styles/styles.css';
+import './styles/desktop.css';
+
 const menuButtonPortfolio = document.getElementById('menu-button-portfolio');
 const menuButtonMenu = document.getElementById('menu-button-menu');
 const menuView = document.getElementById("menuView");
