@@ -1,0 +1,24 @@
+{
+  "name": "andresgrdn-portfolio-website",
+  "description": "<!--Greetings-->",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresgrdn/andresgrdn.github.io.git"
+  },
+  "keywords": [
+    "javascript",
+    "portfolio"
+  ],
+  "author": "Andres Gordon <gordon_andres@yahoo.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresgrdn/andresgrdn.github.io/issues"
+  },
+  "homepage": "https://github.com/andresgrdn/andresgrdn.github.io#readme"
+}
