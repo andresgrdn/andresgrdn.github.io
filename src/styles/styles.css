@@ -78,7 +78,7 @@ body {
   width: 48px;
   height: 48px;
 
-  background-image: url("../icons/x_icon.svg");
+  background-image: url("@icons/x_icon.svg");
   background-color: hsla(205, 13%, 74%, 0.20);
   background-position: center;
   background-repeat: no-repeat;
@@ -149,15 +149,15 @@ body {
 }
 
 .menu__links .github-icon {
-  background-image: url("../icons/github-icon.svg");
+  background-image: url("@icons/github-icon.svg");
 }
 
 .menu__links .linkedin-icon {
-  background-image: url("../icons/linkedin-icon.svg");
+  background-image: url("@icons/linkedin-icon.svg");
 }
 
 .menu__links .torre-icon {
-  background-image: url("../icons/torre-icon.svg");
+  background-image: url("@icons/torre-icon.svg");
 }
 
 footer {
@@ -204,7 +204,7 @@ footer a {
 
   box-shadow: var(--outer-shadow-1);
 
-  background-image: url("../icons/open_contact_card.svg");
+  background-image: url("@icons/open_contact_card.svg");
   background-position: center;
   background-repeat: no-repeat;
 

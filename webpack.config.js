@@ -10,6 +10,12 @@ module.exports = {
     filename: 'bundle.js',
     clean: true
   },
+  resolve: {
+    alias: {
+      '@icons': path.resolve(__dirname, 'src/assets/icons'),
+      '@images': path.resolve(__dirname, 'src/assets/images')
+    }
+  },
   module: {
     rules: [
       {
