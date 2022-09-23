@@ -31,6 +31,13 @@ module.exports = {
           miniCssExtractPlugin.loader,
           'css-loader'
         ]
+      },
+      {
+        /* Icons */
+        test: /\.svg$/,
+        generator: {
+          filename: 'assets/icons/[hash][ext][query]'
+        }
       }
     ]
   },
