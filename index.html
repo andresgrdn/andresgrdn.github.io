@@ -8,81 +8,51 @@
   <meta name="keywords" content="web,html,css,js,javascript,frontend,backend,react">
   <meta name="color-scheme" content="light dark">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andres Gordon</title>
+  <title>Andy Gordon</title>
 
   <link rel="shortcut icon" href="./icons/logo-personal-v1.svg" type="image/x-icon">
 
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 768px)">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500;700&display=swap"
-    rel="stylesheet">
 </head>
 
 <body>
-  <section id="menuView" class="menu-container">
+  <header class="header-container">
+    <div class="page-title">
+      <img class="profile-image" src="./icons/logo-personal-v1.svg" alt="Andres Gordon Logo">
+      <h1>
+        Andy Gordon
+      </h1>
+    </div>
 
-    <span id="menu-button-menu" class="menu__button--close"></span>
-
-    <img class="profile-image" src="./icons/logo-personal-v1.svg" alt="Andres Gordon Logo">
 
     <ul class="menu__links">
 
       <li>
         <a target="_blank" href="https://github.com/andresgrdn">
-          <span class="github-icon"></span>
+          <img src="./icons/github-icon.svg" alt="github-icon">
           andresgrdn
         </a>
       </li>
 
       <li>
         <a target="_blank" href="https://www.linkedin.com/in/andres-gordon-castro/">
-          <span class="linkedin-icon"></span>
+          <img src="./icons/linkedin-icon.svg" alt="github-icon">
           andres-gordon-castro
         </a>
       </li>
 
-      <li>
-        <a target="_blank" href="https://torre.co/gordon_andres">
-          <span class="torre-icon"></span>
-          gordon_andres
-        </a>
-      </li>
-
     </ul>
-
-    <footer>
-      <p>
-        "Es mejor actuar por la posibilidad de ganar algo, que
-        actuar por el miedo a perder algo"
-      </p>
-
-      <p>
-        Made with ❤ by
-        <a href="https://andresgrdn.github.io">
-          Andres Gordon
-        </a>
-      </p>
-    </footer>
-
-  </section>
-
-  <header class="header-container">
-    <h1>
-      Andres Gordon
-      <br>
-      Portfolio
-    </h1>
   </header>
 
-  <main class="">
+  <main>
     <span id="menu-button-portfolio" class="portfolio__open-menu-button"></span>
 
     <section class="cards-container">
       <div class="card">
-        <img src="./images/rest-flags.netlify.app_.png" alt="Country flags website mobile view">
+        <div class="image-showcase">
+          <img src="./images/rest-flags.netlify.app_.png" alt="Country flags website mobile view">
+        </div>
 
         <div class="card__description">
           <p>
@@ -110,7 +80,9 @@
       </div>
 
       <div class="card">
-        <img src="./images/rock-paper-scissors_.jpg" alt="Rock paper scissors project screenshot">
+        <div class="image-showcase">
+          <img src="./images/rock-paper-scissors_.jpg" alt="Rock paper scissors project screenshot">
+        </div>
 
         <div class="card__description">
           <p>
@@ -137,7 +109,9 @@
       </div>
 
       <div class="card">
-        <img src="./images/clon-google_.png" alt="Google clone website screenshot">
+        <div class="image-showcase">
+          <img src="./images/clon-google_.png" alt="Google clone website screenshot">
+        </div>
 
         <div class="card__description">
           <p>
@@ -160,7 +134,9 @@
       </div>
 
       <div class="card">
-        <img src="./images/project-card-profile_.png" alt="Responsive profile card website">
+        <div class="image-showcase">
+          <img src="./images/project-card-profile_.png" alt="Responsive profile card website">
+        </div>
 
         <div class="card__description">
           <p>
@@ -183,7 +159,9 @@
       </div>
 
       <div class="card">
-        <img src="./images/base-apparel-comming-soon-screenshot.png" alt="Responsive profile card website">
+        <div class="image-showcase">
+          <img src="./images/base-apparel-comming-soon-screenshot.png" alt="Responsive profile card website">
+        </div>
 
         <div class="card__description">
           <p>
@@ -205,13 +183,10 @@
             <a href="https://andresgrdn.github.io/base-apparel-coming-soon/" target="_blank">Live site</a>
           </div>
         </div>
-
       </div>
 
     </section>
   </main>
-
-  <script src="./scripts/menu.js"></script>
 </body>
 
 </html>
