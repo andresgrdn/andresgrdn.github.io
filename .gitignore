@@ -239,4 +239,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Astro ###
+# Build output
+dist/
+
+# Generated types and cache
+.astro/
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,node,macos,linux,visualstudiocode

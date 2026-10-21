@@ -1,0 +1,47 @@
+---
+import '@fontsource/dm-sans/latin-400.css';
+import '@fontsource/dm-sans/latin-500.css';
+import '@fontsource/dm-sans/latin-700.css';
+import '@fontsource/inter/latin-500.css';
+import '@fontsource/inter/latin-700.css';
+
+import '../styles/global.css';
+
+interface Props {
+    title: string;
+    description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content={description}>
+    <meta name="keywords" content="web,html,css,js,javascript,frontend,backend,react">
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content={Astro.generator}>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content={Astro.site}>
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content={title}>
+    <meta name="twitter:description" content={description}>
+
+    <title>{title}</title>
+
+    <link rel="icon" href="/icons/logo-personal-v1.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <slot />
+</body>
+
+</html>

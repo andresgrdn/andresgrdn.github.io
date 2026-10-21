@@ -1,0 +1,85 @@
+---
+const socialLinks = [
+    {
+        label: 'andresgrdn',
+        href: 'https://github.com/andresgrdn',
+        icon: '/icons/github-icon.svg',
+        alt: 'github-icon',
+    },
+    {
+        label: 'andres-gordon-castro',
+        href: 'https://www.linkedin.com/in/andres-gordon-castro/',
+        icon: '/icons/linkedin-icon.svg',
+        alt: 'linkedin-icon',
+    },
+];
+---
+
+<ul class="menu__links">
+    {
+        socialLinks.map(({ label, href, icon, alt }) => (
+            <li>
+                <a target="_blank" rel="noopener noreferrer" href={href}>
+                    <img src={icon} alt={alt} />
+                    {label}
+                </a>
+            </li>
+        ))
+    }
+</ul>
+
+<style>
+    .menu__links {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.2rem;
+
+            border-radius: 4px;
+            border: solid 1px var(--grey-dark);
+            padding: 0.4rem 0.8rem;
+
+            text-decoration: none;
+
+            background: var(--grey-light);
+            color: var(--black-accent);
+
+            img {
+                display: block;
+                width: 1.2rem;
+            }
+        }
+
+        a:hover {
+            color: var(--grey-light);
+            background: var(--grey-dark);
+            font-weight: bold;
+
+            img {
+                background: var(--white);
+                border-radius: 0.4rem;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .menu__links {
+            margin: 0 auto;
+            width: unset;
+            padding: 42px 0;
+            padding-bottom: 0;
+
+            a:hover {
+                box-shadow: var(--outer-shadow-1);
+            }
+        }
+    }
+</style>

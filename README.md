@@ -53,3 +53,62 @@
 [<img alt="DEV.to" src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />]
 (https://dev.to/iayeshasahar)
 -->
+
+---
+
+## This website
+
+Built with [Astro](https://astro.build) and published to GitHub Pages.
+
+| | |
+| --- | --- |
+| Framework | Astro (static output, zero client-side JavaScript) |
+| Package manager | [pnpm](https://pnpm.io) |
+| Styles | Plain CSS with native nesting + scoped component styles |
+| Fonts | Self-hosted [Fontsource](https://fontsource.org) (DM Sans, Inter) |
+| Deploy | GitHub Actions → GitHub Pages |
+
+### Project structure
+
+```
+src/
+├── assets/images/     # project screenshots (optimized to webp at build time)
+├── components/        # SiteHeader, SocialLinks, ProjectCard, ProjectGrid
+├── content/projects/  # one markdown file per project
+├── layouts/           # BaseLayout (head, meta, fonts, global styles)
+├── pages/             # index.astro, 404.astro
+└── styles/            # global.css (design tokens + reset)
+```
+
+### Local development
+
+```bash
+pnpm install        # install dependencies
+pnpm dev            # dev server on http://localhost:4321
+pnpm build          # static build into dist/
+pnpm preview        # serve the production build
+pnpm check          # astro check (types + content collection schema)
+```
+
+### Adding a project
+
+Create a markdown file in `src/content/projects/` — the card is rendered automatically:
+
+```md
+---
+title: My project
+description: What the project does.
+tags:
+  - HTML5
+  - CSS3
+image: '../../assets/images/my-project.jpg'
+repoUrl: https://github.com/andresgrdn/my-project
+liveUrl: https://andresgrdn.github.io/my-project/
+order: 2
+---
+```
+
+### Deployment
+
+Every push to `master` runs `.github/workflows/deploy.yml`, which builds the site
+and publishes it to <https://andresgrdn.github.io>.
